@@ -1,0 +1,351 @@
+// Custom styles for this template
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-size: 0.8em;
+}
+
+.aside-menu {
+
+  .nav-tabs .nav-link,
+  .callout {
+    border-radius: 0;
+  }
+}
+
+.sidebar {
+
+  .sidebar-nav,
+  ul.nav {
+    width: $sidebar-width - 16px;
+    background: #535771;
+  }
+}
+
+// // Here you can add other styles
+.sidebar .nav-link,
+.nav-link a i {
+  color: #fff !important;
+  // background: rgba(83, 87, 113, 0.8);
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat" !important;
+}
+
+.sidebar {
+  // background: #e4e5e6;
+  background-color: #535771;
+}
+
+.app-header .navbar-brand {
+  // background-color: #535771;
+  background-color: white;
+  border-bottom: none;
+}
+
+.brand-minimized .app-header .navbar-brand {
+  background-color: #535771;
+  border-bottom: none;
+}
+
+.app-header {
+  border-bottom: none;
+}
+
+.sidebar .nav-link .nav-icon {
+  color: white;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #0BA0FA !important;
+  border-radius: 0;
+}
+
+.sidebar .nav-link.active {
+  background-color: #0BA0FA;
+  border-radius: 0;
+}
+
+.app-header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  // background-color: #535771;
+}
+
+.nav {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar-toggler {
+  color: white !important;
+  // background: rgba(83, 87, 113, 0.5);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.tableHeader {
+  background-color: #0BA0FA !important;
+  color: white;
+}
+
+.viewDiary {
+  color: #0BA0FA !important;
+  cursor: pointer;
+}
+
+.deleteDiary {
+  color: #F94340 !important;
+  cursor: pointer;
+}
+
+.editDiary {
+  color: #F8B55A !important;
+  cursor: pointer;
+}
+
+.ql-container {
+  height: 200px !important;
+}
+
+.discardButton,
+.discardButton:hover,
+.discardButton:active {
+  background-color: #707070 !important;
+}
+
+
+.btn {
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.btn,
+.btn:hover,
+.btn:active {
+  background-color: #0BA0FA;
+  cursor: pointer;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 64px;
+  // padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.MomDiaryTableCard {
+  border: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.table-responsive {
+  border-radius: 4px;
+}
+
+.sidebar .nav-link,
+.nav-link a i {
+  background-color: #535771;
+  border-radius: 0;
+}
+
+.sidebar .nav-dropdown.open {
+  background-color: #535771;
+}
+
+.sidebar {
+  width: auto !important;
+  padding: 0;
+}
+
+// dashboard
+.dashboardCard {
+  background-color: white;
+  border: 0;
+  transition: 0.2s all ease;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboardCard img {
+  transform: scale(0.75);
+}
+
+.dashboardCard:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+//Pregnancy & Child Record 
+
+
+.PregnancychildRecordCard {
+  border: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.shareRecord {
+  color: #0BA0FA !important;
+  cursor: pointer
+}
+
+.editRecord {
+  color: #F8B55A !important;
+  cursor: pointer;
+}
+
+.downloadRecord {
+  color: #007f00 !important;
+  cursor: pointer
+}
+
+.deleteRecord {
+  color: #F94340 !important;
+  cursor: pointer;
+}
+
+.dashboardCard img {
+  height: 130px !important;
+}
+
+.dashboardCard h5 {
+  color: #444444 !important;
+  border: 0;
+}
+
+.dashboardCard:hover h5 {
+  text-decoration: none;
+  border: 0 !important;
+}
+
+.nav-item .active {
+  color: #fff !important;
+  background: #0BA0FA !important;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.form-control-file,
+.form-control-range {
+  border: 0 !important;
+  background: aliceblue;
+  border-radius: 4px !important;
+}
+
+.tab-content .tab-pane {
+  padding-top: 0;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .sidebar-minimized .sidebar .nav-item:hover>.nav-link {
+    background: #0BA0FA;
+  }
+}
+
+//Upload Button
+
+.uploadBtn {
+  color: white;
+  background-color: #0BA0FA;
+  border-radius: 64px;
+  border: 0;
+  padding: 8px 16px;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4px;
+  cursor: pointer!important;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0
+}
+
+.upload-btn-wrapper input[type=file] {
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.asterisc {
+  // display: block;
+  color: red;
+  // margin: -19px 185px;
+}
+
+.imgPreview {
+  text-align: center;
+  margin: 5px 15px;
+  height: 200px;
+  width: 400px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.tableHeader {
+  background: "#00A2FF";
+  color: "#ffffff"
+}
+
+.healthCalculatorBtn {
+  background-color: "#00A2FF";
+  font-weight: 400;
+  width: 180px;
+  border-radius: 64px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 15px
+}
+
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+.nav-tabs .nav-link {
+  color: #55595c;
+  background: #f1f1f1;
+  border: 1px solid #f9f9f9;
+}
+
+.btn-secondary {
+  font-size: 0.9em;
+}
+
+.react-datepicker__input-container input{
+width: 100%;
+border-radius: 4px;
+color: #333;
+border: 1px solid lightgray;
+padding: 6.5px 12px;
+}
